@@ -1,0 +1,6 @@
+ph_n = input()
+ph_n = ph_n.replace(" ", "")
+ph_n = ph_n.replace("(", "")
+ph_n = ph_n.replace(")", "")
+ph_n = ph_n.replace("-", "")
+print(ph_n)
