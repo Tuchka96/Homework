@@ -5,4 +5,16 @@
 Ученикам без допуска должно печататься "Вы отчислены".
 Выдачу допуска реализуй как функцию.
 """
+
+
+def dies_stud(ball):
+    if ball > 50:
+        print("Вы пережили судный день!")
+    else:
+        print("Вы отчислены")
+
+
 studens = int(input("Количество студентов: "))
+for i in range(studens):
+    ball = int(input("Введите ваш балл: "))
+    dies_stud(ball)

@@ -3,5 +3,5 @@
 """
 list = {}
 for i in range(1, 11):
-    list[i] = i**3
+    list[i] = i ** 3
 print(list)
